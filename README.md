@@ -1,12 +1,4 @@
-<style>
-  #brand {
-    width: 180px;
-    height: 180px;
-    border: 1px solid black;
-  }
-</style>
-
-<img src="./BRAND.jpg" id="brand" />
+![Rahayu logo](./BRAND.jpg)
 
 # Rahayu: A Cloud-Based POS (_Point Of Sales_) That Works for Your Team
 
