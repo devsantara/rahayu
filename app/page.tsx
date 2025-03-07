@@ -1,3 +1,7 @@
 export default function RootPage() {
-  return <h1>Rahayu by Devsantara</h1>;
+  return (
+    <main className="h-screen grid place-content-center">
+      <h1 className="text-center">Rahayu by Devsantara</h1>
+    </main>
+  );
 }
