@@ -14,6 +14,6 @@
   "useTabs": false,
   "plugins": ["prettier-plugin-tailwindcss"],
 
-  "tailwindStylesheet": "./lib/style/globals.css",
+  "tailwindStylesheet": "./src/styles/globals.css",
   "tailwindFunctions": ["cn", "twMerge", "clsx"]
 }
