@@ -1,7 +1,9 @@
-import '~/lib/style/globals.css';
+import '~/styles/globals.css';
 
-import { font } from '~/lib/font';
-import { cn } from '~/lib/style/utils';
+import * as React from 'react';
+
+import { font } from '~/styles/fonts';
+import { cn } from '~/styles/utils';
 
 interface RootLayoutProps {
   children: React.ReactNode;
