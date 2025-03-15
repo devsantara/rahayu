@@ -11,7 +11,9 @@
     "lint:ts": "tsc --noEmit",
     "format": "prettier . --write",
     "prepare": "husky",
-    "commitlint": "commitlint --edit"
+    "commitlint": "commitlint --edit",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.0.12",
