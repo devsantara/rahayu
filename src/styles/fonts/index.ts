@@ -1,6 +1,6 @@
-import localFont from 'next/font/local';
-import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
+import { GeistSans } from 'geist/font/sans';
+import localFont from 'next/font/local';
 
 const SatoshiSans = localFont({
   src: './satoshi-variable.woff2',
