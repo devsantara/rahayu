@@ -43,7 +43,6 @@ const eslintConfig = [
       quotes: ['error', 'single', { avoidEscape: true }],
       'no-tabs': ['error', { allowIndentationTabs: false }],
       indent: ['error', 2],
-      'max-len': ['error', 80],
       'jsx-quotes': ['error', 'prefer-double'],
       'linebreak-style': ['error', 'unix'],
       eqeqeq: ['error', 'always'],
