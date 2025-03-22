@@ -11,7 +11,6 @@ await jiti.import('./src/env');
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   output: 'standalone',
   transpilePackages: ['@t3-oss/env-nextjs', '@t3-oss/env-core'],
 };

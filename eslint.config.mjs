@@ -33,6 +33,7 @@ const eslintConfig = [
       'next/core-web-vitals',
       'next/typescript',
     ],
+    plugins: ['drizzle'],
   }),
   {
     name: 'Javascript rules',
@@ -130,6 +131,13 @@ const eslintConfig = [
         'error',
         { namedComponents: 'function-declaration' },
       ],
+    },
+  },
+  {
+    name: 'Drizzle rules',
+    rules: {
+      'drizzle/enforce-delete-with-where': ['error'],
+      'drizzle/enforce-update-with-where': ['error'],
     },
   },
 ];
